@@ -1,2 +1,4 @@
 Online-Interpretor für Phyton:  
 https://www.onlinegdb.com/online_python_interpreter
+
+# Ertellung von Beispielen für die Berechnung des Schnittpunktes 2-er Geraden mittels Itaration und Gleichungsauflösung

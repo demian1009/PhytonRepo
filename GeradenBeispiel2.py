@@ -1,4 +1,4 @@
-
+# Beispiel für die Berechnung des Schnittpunktes 2-er Geraden mittels Auflösung 2-er Geraden-Gleichungen
 def computeIntersection(x1,y1,x2,y2,x3,y3,x4,y4):
     
     print("Computing intersection of 2 straights...")
