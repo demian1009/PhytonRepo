@@ -3,7 +3,6 @@ def generatePrimeNumbers(fromNumber, toNumber):
 
     print("Generating prime numbers...")
 
-    x = fromNumber
     for x in range(fromNumber, toNumber):
         if isPrime(x):
             print("{} is a prime number".format(x))
@@ -12,11 +11,11 @@ def generatePrimeNumbers(fromNumber, toNumber):
 def isPrime(number):
     if number >= 1 and number <= 3:
         return True
-    for x in range(2, number - 1):
+    for x in range(2, int(number/2)):
         if number % x == 0:
             return False
     return True
 
 
 print("\n1. example:")
-generatePrimeNumbers(1, 1000)
+generatePrimeNumbers(1, 100)
